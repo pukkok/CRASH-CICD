@@ -4,5 +4,10 @@
   "main": "index.js",
   "repository": "https://github.com/pukkok/CRASH-CICD.git",
   "author": "pukkok <krystalgggg@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "-": "^0.0.1",
+    "D": "^1.0.0",
+    "typescript": "^5.7.2"
+  }
 }
