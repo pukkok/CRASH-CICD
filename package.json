@@ -1,0 +1,8 @@
+{
+  "name": "CRASH-CICD",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/pukkok/CRASH-CICD.git",
+  "author": "pukkok <krystalgggg@gmail.com>",
+  "license": "MIT"
+}
