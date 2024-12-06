@@ -10,6 +10,9 @@
     "D": "^1.0.0",
     "typescript": "^5.7.2"
   },
+  "scripts": {
+    "build" : "tsc"
+  },
   "devDependencies": {
     "@swc/cli": "^0.5.2",
     "@swc/core": "^1.10.0"
