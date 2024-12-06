@@ -9,5 +9,9 @@
     "-": "^0.0.1",
     "D": "^1.0.0",
     "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.5.2",
+    "@swc/core": "^1.10.0"
   }
 }
