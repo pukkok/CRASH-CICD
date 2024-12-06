@@ -22,6 +22,6 @@ jobs:
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        AWS_REGION: "us-east-1" # 원하는 AWS 리전을 입력
+        AWS_REGION: "ap-northeast-2" # 원하는 AWS 리전을 입력
       run: |
-        aws s3 sync dist/ s3://<버킷명> --delete
+        aws s3 sync dist/ s3://pukkok-static-web-bucket --delete
